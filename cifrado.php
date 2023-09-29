@@ -38,7 +38,6 @@ function cifrado($datos, $opciones = [])
     return base64_encode($iv . $datosCifrados);
 }
 
-
 /**
  * Descifra los datos utilizando OpenSSL.
  *
